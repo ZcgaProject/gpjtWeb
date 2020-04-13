@@ -1,0 +1,161 @@
+.guopubigBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+.topBox{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url("../../assets/guopuPage/guopu.jpg") no-repeat center;
+    background-size: cover;
+    /*background-color: fuchsia;*/
+}
+.logoBox{
+    width: 38%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #fafafa;*/
+}
+.yiDxuan{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: white;*/
+}
+.yiDxuanBox{
+    width: 94%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-direction: row;
+    background:radial-gradient(#cfddee,rgba(0,0,0,0.2));
+    /*background-color: rgba(207,221,238,0.3);*/
+}
+.oneBoxNav{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.25rem;
+    color: #000000;
+    font-weight: 600;
+    /*background-color: aquamarine;*/
+}
+.twoBoxNav{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    /*background-color: #636262;*/
+}
+.twoBoxNav_little{
+    width: 40%;
+    height: 3rem;
+    position: absolute;
+    top: 1rem;
+    /*background-color: #cfddee;*/
+}
+.yiDswiper{
+    width: 50%;
+    height: 25%;
+    position: relative;
+    top: 0.5rem;
+    left: 3rem;
+    /*background-color: #cfddee;*/
+}
+.navBox{
+    width: 100%;
+    /*height: 5rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #636262;*/
+}
+.boxNavHezi{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.boxNavHeziHead{
+    width: 100%;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #71a9ec;
+    border-radius: 18px;
+}
+.heziHeadBox{
+    width: 90%;
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.heziHeadBoxtwo{
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.boxNavHeziImg{
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #71a9ec;
+    border-radius: 18px;
+
+}
+.imgBoxFoo{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.footerBox{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #636262;*/
+    position: fixed;
+    font-size: 0.2rem;
+    color: #636262;
+    bottom: 0px;
+    left: 0px;
+}

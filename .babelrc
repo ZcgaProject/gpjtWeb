@@ -1,0 +1,29 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        //        "modules": false,
+        "uglify": true,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "iOS >= 6.0", "safari >= 7", "not ie <= 8"]
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    "transform-vue-jsx",
+    "transform-runtime",
+    ["import", {"libraryName": "vant","libraryDirectory": "es","style": true}, "vant"],
+    ["import",{"libraryName": "iview","libraryDirectory": "src/components"}]
+  ],
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2", "es2015"],
+      "plugins": ["transform-vue-jsx", "transform-es2015-modules-commonjs", "dynamic-import-node"]
+    }
+  }
+}
