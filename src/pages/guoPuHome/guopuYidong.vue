@@ -173,7 +173,7 @@
         background-color: #71a9ec !important;
     }
     .van-action-sheet{
-        color: #ffffff;
+        color: #ffffff !important;
     }
     .van-tabs{
         width: 100% !important;
@@ -182,7 +182,7 @@
         background-color: rgba(255,255,255,0) !important;
     }
     .van-tabs--line .van-tabs__wrap{
-        border-radius: 10px;
+        border-radius: 10px !important;
     }
     .van-tabs__line{
         background-color:#3b83d9 !important;
@@ -192,28 +192,28 @@
     }
     .my-swipe .van-swipe-item {
         color: #fff !important;
-        font-size: 20px;
-        line-height: 150px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        font-size: 20px !important;
+        line-height: 150px !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
         /*background-color: #39a9ed;*/
     }
     .van-swipe{
-        width: 100%;
-        height: 100%;
+        width: 100% !important;
+        height: 100% !important;
     }
     .van-cell__title, .van-cell__value{
-        display: flex;
+        display: flex !important;
     }
     .van-cell{
-        font-weight: bold;
+        font-weight: bold !important;
         background-color: #3581d2 !important;
-        color: #ffffff;
+        color: #ffffff !important;
     }
     .van-cell__right-icon{
-        color: #ffffff;
+        color: #ffffff !important;
     }
     .van-cell--clickable:active{
         background-color: #3581d2 !important;

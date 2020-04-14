@@ -105,7 +105,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #71a9ec;
+    background-color: #3581d2;
     border-radius: 18px;
 }
 .heziHeadBox{
@@ -133,7 +133,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    background-color: #71a9ec;
+    background-color: #3581d2;
     border-radius: 18px;
 
 }
