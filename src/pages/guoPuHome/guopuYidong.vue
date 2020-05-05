@@ -78,7 +78,7 @@
         <div class="footerBox">
             <img style="width: 20%;height: 60%" src="../../assets/footer/footer-1.jpg" alt="">
             <img style="width: 20%;height: 60%;margin-left: 0.3rem" src="../../assets/footer/footer-2.png" alt="">
-            <span style="margin-left: 0.3rem">琼ICP备19005177号-1</span>
+            <span style="margin-left: 0.3rem" @click="beianhao">ICP备案号：琼ICP备19004493号-1</span>
         </div>
     </div>
 </template>
@@ -153,6 +153,9 @@
                         this.showthr = true
                     }
                 // Toast(title);
+            },
+            beianhao(){
+                location.href = 'http://www.beian.miit.gov.cn/'
             }
             // wenmei(index){
             //     if(index === 'wm'){

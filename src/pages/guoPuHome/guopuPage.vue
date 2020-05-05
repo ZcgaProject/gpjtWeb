@@ -157,7 +157,7 @@
             <div style="display: flex;align-items: center;justify-content: center;flex-direction: row">
                 <img style="width: 8%;height: 100%" src="../../assets/footer/footer-1.jpg" alt="">
                 <img style="width: 8%;height: 100%;margin-left: 0.1rem" src="../../assets/footer/footer-2.png" alt="">
-                <span>ICP许可证号：琼ICP备19005177号-1</span>
+                <span @click="beianhao">&#12288;&#12288;ICP许可证号：琼ICP备19005177号-1</span>
             </div>
         </div>
     </div>
@@ -206,6 +206,9 @@
                     this.wmeicy= false
                     this.jituanjies = false
                 }
+            },
+            beianhao(){
+                location.href = 'http://www.beian.miit.gov.cn/'
             }
         }
     }
